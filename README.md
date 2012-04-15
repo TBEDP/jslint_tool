@@ -33,6 +33,14 @@
 node precommit.js [file] //扫描单个文件
 node precommit.js [folder] [-r] //扫描目录，加-r决定是否递归扫描目录
 ```
+NPM  
+
+```
+npm install jslint_tool -g
+jslint_tool [file]
+jslint_tool [folder] [-r]
+```
+注意：采用`npm`的方式可能不方便你修改`config.json`文件。
 
 ## 参考
 <http://www.jslint.com/>
