@@ -1,4 +1,4 @@
-#!/usr/local/bin/node
+#!/usr/bin/env node
 var fs = require('fs');
 var path = require("path");
 var config = require("./config.json");
@@ -6,7 +6,7 @@ var JSLINT = require('./jslint.js');
 
 var argv = process.argv;
 var recursion = argv[3] === "-r";
-var ignores = ["node_modules", "bin", "test", "public"];
+var ignores = ["node_modules", "build", "bin", "test", "public"];
 
 var e, i, input;
 if (!argv[2]) {
