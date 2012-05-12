@@ -2,14 +2,14 @@
   "author": "Jackson Tian <shyvo1987@gmail.com> (http://weibo.com/shyvo)",
   "name": "jslint_tool",
   "description": "让犯错变得困难",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/TBEDP/jslint_tool",
   "repository": {
     "type": "git",
     "url": "git://github.com/TBEDP/jslint_tool.git"
   },
   "main": "./precommit.js",
-  "bin": {"jslint_tool": "./precommit.js"},
+  "bin": { "jslint_tool": "./precommit.js" },
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {},
